@@ -1,7 +1,4 @@
 # Global parameters
-variable "aws_assume_role" {
-}
-
 variable "resource_prefix" {
   type        = string
   description = "Prefix name for AWS Backup resources"
